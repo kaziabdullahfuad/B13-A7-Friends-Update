@@ -7,6 +7,7 @@ import RootLayout from './layout/RootLayout'
 import Timeline from './pages/timeline/Timeline'
 import StatsPage from './pages/stats/StatsPage'
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage'
+import Homepage from './pages/homepage/Homepage'
 
 const router=createBrowserRouter(
   [
@@ -17,7 +18,7 @@ const router=createBrowserRouter(
         {
           // path:"/",
           index:true,
-          element: <h2>Home page ekhane</h2>
+          Component: Homepage
         },
         {
           path:"/timeline",
