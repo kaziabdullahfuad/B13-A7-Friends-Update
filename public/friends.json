@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Arif Hasan",
+    "picture": "https://i.ibb.co.com/nqmxj3mp/photo-1494790108377-be9c29b29330.avif",
+    "email": "arif.hasan@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["university", "close friend"],
+    "bio": "Met during CSE at university. We used to prepare for coding contests together and still discuss tech careers.",
+    "goal": 14,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 2,
+    "name": "Nusrat Jahan",
+    "picture": "https://i.ibb.co.com/wFR33TdR/photo-1501196354995-cbb51c65aaea.avif",
+    "email": "nusrat.jahan@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["school", "good friend"],
+    "bio": "School friend who now works in banking. We usually catch up about life and career growth.",
+    "goal": 14,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 3,
+    "name": "Tanvir Ahmed",
+    "picture": "https://i.ibb.co.com/bj0Bc5ZW/photo-1507003211169-0a1dd7228f2d.avif",
+    "email": "tanvir.ahmed@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["gym", "fitness buddy"],
+    "bio": "Gym partner who keeps me motivated. We often talk about diet plans and workout routines.",
+    "goal": 10,
+    "next_due_date": "2026-04-21"
+  },
+  {
+    "id": 4,
+    "name": "Sadia Rahman",
+    "picture": "https://i.ibb.co.com/SXbTsfDJ/photo-1524504388940-b1c1722653e1.avif",
+    "email": "sadia.rahman@gmail.com",
+    "days_since_contact": 21,
+    "status": "overdue",
+    "tags": ["office", "colleague"],
+    "bio": "Worked together during my internship. She helped me understand team collaboration and project planning.",
+    "goal": 14,
+    "next_due_date": "2026-04-08"
+  },
+  {
+    "id": 5,
+    "name": "Fahim Chowdhury",
+    "picture": "https://i.ibb.co.com/23pm7F2R/photo-1534528741775-53994a69daeb.avif",
+    "email": "fahim.chowdhury@gmail.com",
+    "days_since_contact": 9,
+    "status": "on-track",
+    "tags": ["neighbor", "childhood friend"],
+    "bio": "We grew up in the same neighborhood. Still meet occasionally for tea and long conversations.",
+    "goal": 14,
+    "next_due_date": "2026-04-23"
+  },
+  {
+    "id": 6,
+    "name": "Mehjabin Karim",
+    "picture": "https://i.ibb.co.com/gM6mpdQF/photo-1539571696357-5a69c17a67c6.avif",
+    "email": "mehjabin.karim@gmail.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["university", "group project"],
+    "bio": "Teammate from several university projects. We still discuss career plans and higher studies.",
+    "goal": 14,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 7,
+    "name": "Rakib Hossain",
+    "picture": "https://i.ibb.co.com/ZprZ58W8/premium-photo-1669703777437-27602d656c27.avif",
+    "email": "rakib.hossain@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["gaming", "online friend"],
+    "bio": "Met through online gaming. We still play occasionally and talk about tech and gadgets.",
+    "goal": 10,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 8,
+    "name": "Sharmin Akter",
+    "picture": "https://i.ibb.co.com/QWmsndF/photo-1522556189639-b150ed9c4330.avif",
+    "email": "sharmin.akter@gmail.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["family friend"],
+    "bio": "Family friend who lives nearby. We usually meet during events but haven’t talked in a while.",
+    "goal": 14,
+    "next_due_date": "2026-04-12"
+  }
+]

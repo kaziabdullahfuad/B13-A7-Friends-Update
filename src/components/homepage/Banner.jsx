@@ -14,7 +14,7 @@ const Banner = () => {
         <div className='w-10/12 mx-auto  grid grid-cols-2 md:grid-cols-4 gap-5'>
             
             <div className='bg-white  shadow-md py-8 text-center'>
-                <h3 className='font-semibold text-3xl mb-2'>10</h3>
+                <h3 className='font-semibold text-3xl mb-2'>8</h3>
                 <p>Total Friends</p>
             </div>
 
@@ -24,7 +24,7 @@ const Banner = () => {
             </div>
 
             <div className='bg-white shadow-md py-8 text-center'>
-                <h3 className='font-semibold text-3xl mb-2'>6</h3>
+                <h3 className='font-semibold text-3xl mb-2'>5</h3>
                 <p>Need Attention</p>
             </div>
 
