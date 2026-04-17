@@ -31,7 +31,7 @@ const Timeline = () => {
                                 (timeline.communicate==='Video' ? <img src={Video} alt="" /> : <img src={Caller} alt="" />)
                             }
                             <div className='mb-2'>
-                                <h3>{timeline.communicate} with {timeline.name}</h3>
+                                <h3><span className='font-bold text-[#244D3F]'>{timeline.communicate}</span> with {timeline.name}</h3>
                                 <p>{timeline.today_date}</p>
                             </div>
                             
