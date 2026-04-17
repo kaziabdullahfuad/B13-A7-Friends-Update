@@ -3,6 +3,9 @@ import { FriendDetailsContext } from '../../context/FriendDetailsContext';
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
 import { IoMdVideocam } from "react-icons/io";
 import { IoIosCall } from "react-icons/io";
+import Caller from "../../assets/call.png"
+import Text from "../../assets/text.png"
+import Video from "../../assets/video.png"
 
 
 const Timeline = () => {
@@ -24,8 +27,8 @@ const Timeline = () => {
 
                         return <div className='shadow-md mb-6 p-4 flex items-center gap-2 rounded-md' key={index}>
 
-                            {timeline.communicate==='Text' ? <IoChatbubbleEllipsesOutline /> : 
-                                (timeline.communicate==='Video' ? <IoMdVideocam /> : <IoIosCall />)
+                            {timeline.communicate==='Text' ? <img src={Text} alt="" /> : 
+                                (timeline.communicate==='Video' ? <img src={Video} alt="" /> : <img src={Caller} alt="" />)
                             }
                             <div className='mb-2'>
                                 <h3>{timeline.communicate} with {timeline.name}</h3>
