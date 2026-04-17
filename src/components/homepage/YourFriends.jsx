@@ -29,7 +29,7 @@ const YourFriends = () => {
 
     },[])
     
-    console.log(friends);
+    console.log("This is friends from yourfriends",friends)
 
     return (
         <div className='mt-20  w-10/12 mx-auto'>
