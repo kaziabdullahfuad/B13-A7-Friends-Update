@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router';
 import Navbar from '../components/shared/Navbar';
 import Footer from '../components/shared/Footer';
+import { ToastContainer } from 'react-toastify';
 
 const RootLayout = () => {
     return (
@@ -10,6 +11,9 @@ const RootLayout = () => {
             {/* Dynamic thakbe */}
             <Outlet></Outlet>
             <Footer></Footer>
+
+                {/* test container */}
+             <ToastContainer />
         </div>
     );
 };

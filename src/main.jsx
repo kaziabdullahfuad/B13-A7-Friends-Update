@@ -8,12 +8,17 @@ import StatsPage from './pages/stats/StatsPage'
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage'
 import Homepage from './pages/homepage/Homepage'
 import { router } from './router/Routes'
+import FriendDetailsProvider from './context/FriendDetailsProvider'
 
 
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <FriendDetailsProvider>
+
     <RouterProvider router={router} />
+
+    </FriendDetailsProvider>
   </StrictMode>,
 )
