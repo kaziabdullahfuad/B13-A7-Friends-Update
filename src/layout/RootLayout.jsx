@@ -6,10 +6,14 @@ import { ToastContainer } from 'react-toastify';
 
 const RootLayout = () => {
     return (
-        <div>
+        <div className="min-h-screen flex flex-col">
             <Navbar></Navbar>
             {/* Dynamic thakbe */}
+             <main className="flex-grow">
+                
             <Outlet></Outlet>
+
+             </main>
             <Footer></Footer>
 
                 {/* test container */}
