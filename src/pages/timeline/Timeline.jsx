@@ -10,7 +10,7 @@ import Video from "../../assets/video.png"
 
 const Timeline = () => {
 
-    const {timelines,setTimeline}=useContext(FriendDetailsContext);
+    const {timelines}=useContext(FriendDetailsContext);
     // 1. State to hold the current filter value
     const [filter, setFilter] = useState('All');
 
